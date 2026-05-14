@@ -76,11 +76,3 @@ Developed with ❤️ by [misutesu-desu](https://github.com/misutesu-desu).
 
 ### ⚠️ Disclaimer
 This script is not affiliated with YouTube or Google. It is a third-party UI enhancement tool.
-```
-
-### 3. Son Bir Dokunuş (Otomatik Güncelleme Linkleri)
-Scriptinin en başındaki Metadata kısmına GitHub Raw linklerini eklemiş miydin? Eğer eklemediysen, kodunu şu satırlarla güncelle ki GitHub'da her "Commit" yaptığında kullanıcıların scripti otomatik güncellensin:
-
-```javascript
-// @updateURL    https://github.com/misutesu-desu/YT-Sentence-Flow/raw/main/yt-sentence-flow.user.js
-// @downloadURL  https://github.com/misutesu-desu/YT-Sentence-Flow/raw/main/yt-sentence-flow.user.js
