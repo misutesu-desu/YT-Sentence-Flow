@@ -51,3 +51,36 @@ YouTube's default captions deliver text in tiny, broken fragments. This creates 
 ### 🧑‍💻 Developer Way
 ```bash
 git clone https://github.com/misutesu-desu/YT-Sentence-Flow.git
+```
+
+---
+
+## 💡 How to Customize
+*   **Drag Position:** Click and hold the center of the subtitle to move it anywhere.
+*   **Resize Font:** Click and hold the invisible handle at the **bottom-right corner** of the text box. Drag right to increase, left to decrease.
+*   **Auto-Save:** Your settings are automatically saved in your browser's `localStorage`.
+
+---
+
+## 📜 Technical Details
+The script uses a `ResizeObserver` to track the player dimensions and `Passive Network Hooks` (XHR/Fetch) to intercept subtitle events before they reach the YouTube UI. This ensures maximum performance and zero DOM-bloat.
+
+---
+
+## 💬 Support & Community
+If **YT-Sentence-Flow** improved your watching experience, please give this repository a ⭐ **Star**! It helps others find the tool and keeps me motivated to add new features.
+
+Developed with ❤️ by [misutesu-desu](https://github.com/misutesu-desu).
+
+---
+
+### ⚠️ Disclaimer
+This script is not affiliated with YouTube or Google. It is a third-party UI enhancement tool.
+```
+
+### 3. Son Bir Dokunuş (Otomatik Güncelleme Linkleri)
+Scriptinin en başındaki Metadata kısmına GitHub Raw linklerini eklemiş miydin? Eğer eklemediysen, kodunu şu satırlarla güncelle ki GitHub'da her "Commit" yaptığında kullanıcıların scripti otomatik güncellensin:
+
+```javascript
+// @updateURL    https://github.com/misutesu-desu/YT-Sentence-Flow/raw/main/yt-sentence-flow.user.js
+// @downloadURL  https://github.com/misutesu-desu/YT-Sentence-Flow/raw/main/yt-sentence-flow.user.js
